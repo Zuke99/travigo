@@ -1,3 +1,13 @@
+
+/* App.css */
+:root {
+  --font-family: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
 .App {
   text-align: center;
 }

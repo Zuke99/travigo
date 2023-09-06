@@ -1,3 +1,5 @@
+import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 function Navbar() {
@@ -5,6 +7,7 @@ function Navbar() {
     <div className="absolute top-0 left-0 w-full bg-transparent p-4 z-10">
       <ul className="flex justify-between py-10 items-center">
         <div className="px-12 font-semibold text-3xl text-ui-black">Travigo</div>
+        <span className=' absolute left-[180px] top-[57px] text-ui-green'> <FontAwesomeIcon icon={faPaperPlane} /></span>
 
         <div className="flex text-lg font-normal text-ui-black items-center">
           <li className="px-9 cursor-pointer relative group">
@@ -35,7 +38,7 @@ function Navbar() {
 
         <div className="flex px-12 text-lg text-ui-black font-normal items-center">
           <li className="cursor-pointer relative group">
-            <button className="px-7 pb-3 pt-3 h-17 rounded-3xl bg-ui-green text-white drop-shadow-md group-hover:bg-ui-green group-hover:text-black transition-all duration-300">
+            <button className="px-7 pb-3 pt-3 h-17 rounded-3xl bg-ui-green text-white drop-shadow-md group-hover:hover:bg-ui-dark-green transition-all duration-300">
               Login
             </button>
           </li>

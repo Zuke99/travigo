@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import style from '../styling/landing.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGear, faHouse, faTicketSimple } from '@fortawesome/free-solid-svg-icons'
@@ -9,33 +9,18 @@ import dubai from "../assets/dubai.jpg"
 import paris from "../assets/paris.jpg"
 import 'react-date-range/dist/styles.css'; // main style file
 import 'react-date-range/dist/theme/default.css'; // theme css file
-import Calendar from 'react-calendar'
-import { DateRangePicker } from 'react-date-range'
-import { addDays } from 'date-fns'
-import { DatePicker, DateTimePicker } from '@mui/x-date-pickers'
+
+import { DateCalendar } from '@mui/x-date-pickers'
+import PriceCard from './PriceCard'
+
 
 
 
 function Landing() {
 
-  function handleSelect(ranges){
-    console.log(ranges); // native Date object
-  }
+  
 
-  const selectionRange = {
-    startDate: new Date(),
-    endDate: new Date(),
-    key: 'selection',
-  }
-
-  const [state, setState] = useState([
-    {
-      startDate: new Date(),
-      endDate: addDays(new Date(), 7),
-      key: 'selection',
-      color:'#29B588'
-    }
-  ]);
+  
 
   return (
     <div className={`${style.container}`}>
@@ -89,7 +74,7 @@ function Landing() {
                 <h1 className='ml-11 mt-1 text-md font-light text-ui-grey'>Welcome back and explore the world. </h1>
               </div>
               <div className='border w-2/4 '>
-
+                  Search Bar
               </div>
 
             </div>
@@ -107,7 +92,35 @@ function Landing() {
               </div>
             </div>
 
-            <div className='bg-white h-96 border'>
+            {/* LOWER DIV  */}
+
+            <div className='flex h-96  '>
+
+              <div className=' ml-11 w-[59%] h-[85%] bg-white rounded-[45px]'>
+                <div className='flex  h-20 w-full justify-between'>
+                
+             <p className='text-2xl font-medium mt-5 ml-7'> Best Destination 🌈 <br/> <span className='text-ui-grey text-sm font-normal mr-16'>100 Destination Found</span></p>
+
+             <div className='border w-44'>
+              Filters
+             </div>
+             </div>
+
+             <div className='flex-col h-[75%] justify-between'>
+                <div className='flex ml-5 mt-4'>
+                  <PriceCard/>
+                </div>
+                <div className='flex ml-5 mt-4'>
+                  <PriceCard/>
+                </div>
+                
+             </div>
+
+              </div>
+              <div className='border w-[35%]'>
+                  RIght
+              </div>
+
 
             </div>
 
@@ -124,20 +137,48 @@ function Landing() {
               Name and logo
             </div>
 
-            <div className='h-[50%] border'>
+            <div className='h-[50%]'>
+           
+             <DateCalendar
+            
+            // sx={{
+            // svg:{ color },
+            // input: { color },
+            // label: { color },
+            // accentColor: {color},
+            // background :{color},
+            // bgcolor : {color},
+            // backgroundColor : {"#000000"}
+            // color:{color}
+            //columnRuleColor : {color}
+            //fill:{color}
+            //floodColor:{color}
+            //textDecorationColor : {color}
+            //colorAdjust:{color}
+            //borderColor:{color}
+            //forcedColorAdjust : {color}
+            
+
+          // }}
           
+          
+        /> 
+            {/* <DateCalendar className='' /> */}
             </div>
 
+
+
+        
           </div>
 
 
         </div>
       </div>
 
+  {/* Best Destination  */}
 
-
-      <div className='mt-20 h-80 bg-white'>
-
+      <div className='mt-20 h-80 border bg-black'>
+       Journeys
       </div>
     </div>
 

@@ -1,18 +1,16 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 
 function DestinationCard(props) {
-    const [visibility, setVisibility] = useState("hidden");
-    console.log(visibility);
 
-    function setVisibilityHandle(){
-        setVisibility("visible");
-    }
+    
+
+   
   return (
-    <div className='relative bg-black h-[360px] w-64 rounded-3xl'>
+    <div className='relative bg-black h-[340px] w-64 rounded-3xl'>
         
-    <div className={`relative bg-black h-[360px] w-64 rounded-3xl hover:opacity-80 cursor-pointer hover:${setVisibilityHandle} `}> 
-  <img className={`h-[360px] w-64 rounded-3xl shadow-2xl object-cover opacity-95 group-hover:opacity-0  `}
+    <div className={`relative bg-black h-[340px] w-64 rounded-3xl hover:opacity-80 cursor-pointer `}> 
+  <img className={`h-[340px] w-64 rounded-3xl shadow-2xl object-cover opacity-95 group-hover:opacity-0  `}
   src={props.image} 
   alt='destination'/>
 

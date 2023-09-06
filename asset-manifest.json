@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.1112b863.css",
-    "main.js": "/static/js/main.abb8f4f0.js",
-    "static/js/787.349b0e60.chunk.js": "/static/js/787.349b0e60.chunk.js",
-    "static/media/paris.jpg": "/static/media/paris.2da4178628be4852d60a.jpg",
-    "static/media/dubai.jpg": "/static/media/dubai.81a5c661df471854e57b.jpg",
-    "static/media/mounteverest.jpg": "/static/media/mounteverest.1712062e158dcc1a1bce.jpg",
-    "static/media/mteverest.jpg": "/static/media/mteverest.5982e42a3468d06cc64a.jpg",
-    "static/media/explorer.png": "/static/media/explorer.f690e2c73025dbefaa95.png",
-    "index.html": "/index.html",
-    "main.1112b863.css.map": "/static/css/main.1112b863.css.map",
-    "main.abb8f4f0.js.map": "/static/js/main.abb8f4f0.js.map",
-    "787.349b0e60.chunk.js.map": "/static/js/787.349b0e60.chunk.js.map"
+    "main.css": "/%7Btravigo%7D/static/css/main.1112b863.css",
+    "main.js": "/%7Btravigo%7D/static/js/main.788eb397.js",
+    "static/js/787.349b0e60.chunk.js": "/%7Btravigo%7D/static/js/787.349b0e60.chunk.js",
+    "static/media/paris.jpg": "/%7Btravigo%7D/static/media/paris.2da4178628be4852d60a.jpg",
+    "static/media/dubai.jpg": "/%7Btravigo%7D/static/media/dubai.81a5c661df471854e57b.jpg",
+    "static/media/mounteverest.jpg": "/%7Btravigo%7D/static/media/mounteverest.1712062e158dcc1a1bce.jpg",
+    "static/media/mteverest.jpg": "/%7Btravigo%7D/static/media/mteverest.5982e42a3468d06cc64a.jpg",
+    "static/media/explorer.png": "/%7Btravigo%7D/static/media/explorer.f690e2c73025dbefaa95.png",
+    "index.html": "/%7Btravigo%7D/index.html",
+    "main.1112b863.css.map": "/%7Btravigo%7D/static/css/main.1112b863.css.map",
+    "main.788eb397.js.map": "/%7Btravigo%7D/static/js/main.788eb397.js.map",
+    "787.349b0e60.chunk.js.map": "/%7Btravigo%7D/static/js/787.349b0e60.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1112b863.css",
-    "static/js/main.abb8f4f0.js"
+    "static/js/main.788eb397.js"
   ]
 }

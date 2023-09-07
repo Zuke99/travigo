@@ -18,7 +18,7 @@ function PriceCard() {
     <div className='flex-col ml-6 w-40 '>
         <h1 className='mt-3 text-lg font-medium'>Redwood Forest</h1>
         <div className='flex mt-1.5 '>
-        <h1 className='text-sm text-ui-grey'><FontAwesomeIcon icon={faLocationDot} /> California</h1>
+        <h1 className='text-sm text-ui-grey ml-2'><FontAwesomeIcon icon={faLocationDot} /> California</h1>
         <h1 className='text-xs text-ui-grey ml-5'><FontAwesomeIcon icon={faStar} />4.9</h1>
         </div>
     </div>

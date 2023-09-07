@@ -7,12 +7,15 @@ import DestinationCard from './DestinationCard'
 import mteverest from "../assets/mteverest.jpg"
 import dubai from "../assets/dubai.jpg"
 import paris from "../assets/paris.jpg"
+import dp from "../assets/dp.png"
 import 'react-date-range/dist/styles.css'; // main style file
 import 'react-date-range/dist/theme/default.css'; // theme css file
+
 
 import { DateCalendar } from '@mui/x-date-pickers'
 import PriceCard from './PriceCard'
 import Explorer from './Explorer'
+import ScheduleCard from './ScheduleCard'
 
 
 
@@ -113,7 +116,7 @@ function Landing() {
               <div className=' ml-11 w-[59%] h-[85%] bg-white rounded-[45px]'>
                 <div className='flex  h-20 w-full justify-between'>
 
-                  <p className='text-2xl font-medium mt-5 ml-7'> Best Destination 🌈 <br /> <span className='text-ui-grey text-sm font-normal mr-16'>100 Destination Found</span></p>
+                  <p className='text-2xl font-medium mt-5 ml-7  text-ui-black'> Best Destination 🌈 <br /> <span className='text-ui-grey text-sm font-normal mr-16'>100 Destination Found</span></p>
 
                   <div className=' w-44'>
                     <button className='mt-8 ml-7 px-3 py-1 text-ui-black border-ui-grey border rounded-md hover:shadow-md transition-all duration-200'><FontAwesomeIcon icon={faFilter} /> Filters</button>
@@ -149,12 +152,25 @@ function Landing() {
 
 
           {/* RIght SIde */}
-          <div className='border w-full h-full ml-[64%]'>
-            <div className='border h-[15%]'>
-              Name and logo
+          <div className=' w-full h-full ml-[64%]'>
+            <div className='flex h-[15%]'>
+            
+            <div className=' w-20 h-full'>
+              <img src={dp} alt='dp' className=' mt-12 ml-6 bg-slate-100 rounded-full' />
             </div>
 
-            <div className='h-[50%]'>
+            <div className='flex-col  w-48 h-full align-middle'>
+              <h1 className='text-xl font-semibold text-ui-black mt-16'>Dheeraj</h1>
+              <h1 className='text-md text-ui-grey'>Travel Enthusiast</h1>
+            </div>
+
+            <div className=' w-14 h-full'>
+                   <h1 className='mt-[76px] mr-14'> v</h1>
+            </div>
+
+            </div>
+
+            <div className='h-[40%] '>
 
               <DateCalendar
 
@@ -184,8 +200,19 @@ function Landing() {
             </div>
 
 
+              {/* MY SCHEDULE  */}
+          <div className=' h-96 w-full'>
+            <div>
+            <h1 className='flex text-2xl font-medium text-ui-black ml-10'>My Schedule</h1>
+            </div>
 
+            <div className=' w-full h-full ml-3'>
+              <div className='mb-1'><ScheduleCard/></div>
+              <div className='mb-1'><ScheduleCard/></div>
+              <div className='mb-1'><ScheduleCard/></div>
+            </div>
 
+          </div>
           </div>
 
 

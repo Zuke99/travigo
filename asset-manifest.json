@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/travigo/static/css/main.1112b863.css",
-    "main.js": "/travigo/static/js/main.596cdfa1.js",
+    "main.css": "/travigo/static/css/main.e8401023.css",
+    "main.js": "/travigo/static/js/main.7348a2cb.js",
     "static/js/787.349b0e60.chunk.js": "/travigo/static/js/787.349b0e60.chunk.js",
+    "static/media/sahara.jpg": "/travigo/static/media/sahara.327d0f190fd8d4fe953d.jpg",
     "static/media/paris.jpg": "/travigo/static/media/paris.2da4178628be4852d60a.jpg",
     "static/media/dubai.jpg": "/travigo/static/media/dubai.81a5c661df471854e57b.jpg",
     "static/media/mounteverest.jpg": "/travigo/static/media/mounteverest.1712062e158dcc1a1bce.jpg",
     "static/media/mteverest.jpg": "/travigo/static/media/mteverest.5982e42a3468d06cc64a.jpg",
+    "static/media/dp.png": "/travigo/static/media/dp.de663ce9c81e58add4ae.png",
+    "static/media/b3.png": "/travigo/static/media/b3.3db5228793fe6d59d5b2.png",
     "static/media/explorer.png": "/travigo/static/media/explorer.f690e2c73025dbefaa95.png",
+    "static/media/b2.png": "/travigo/static/media/b2.8112e8b08cd2740dfa09.png",
+    "static/media/b1.png": "/travigo/static/media/b1.22baff9413b76149fa81.png",
     "index.html": "/travigo/index.html",
-    "main.1112b863.css.map": "/travigo/static/css/main.1112b863.css.map",
-    "main.596cdfa1.js.map": "/travigo/static/js/main.596cdfa1.js.map",
+    "main.e8401023.css.map": "/travigo/static/css/main.e8401023.css.map",
+    "main.7348a2cb.js.map": "/travigo/static/js/main.7348a2cb.js.map",
     "787.349b0e60.chunk.js.map": "/travigo/static/js/787.349b0e60.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1112b863.css",
-    "static/js/main.596cdfa1.js"
+    "static/css/main.e8401023.css",
+    "static/js/main.7348a2cb.js"
   ]
 }

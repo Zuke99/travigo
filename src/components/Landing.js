@@ -28,7 +28,7 @@ function Landing() {
 
   return (
     <div className={`${style.container}`}>
-      <h1 className='pt-48 text-7xl font-bold leading-snug text-ui-black'>It's a Big World Out <br />There, Go Explore.</h1>
+      <h1 className='pt-48 text-7xl font-bold leading-snug text-ui-black '>It's a Big World Out <br />There, Go Explore.</h1>
       <br />
       <p className='text-2xl text-ui-grey mt-2'>We always make our customers happy by providing many choices.</p>
 
@@ -41,7 +41,7 @@ function Landing() {
       <div className='flex justify-center'>
         <div className='flex w-11/12 h-screen mt-20 bg-white rounded-[45px] drop-shadow-xl '>
 
-          <div className='flex-col w-[250px] '>
+          <div className='flex-col border border-green-800 w-[16.5%] '>
 
             {/* Heading Div */}
             <div className='flex w-full'>
@@ -54,12 +54,12 @@ function Landing() {
             <div className="flex-col mt-20">
               {/* "Dashboard" divs positioned inside the parent */}
               <div className='flex-col justify-items-center'>
-                <div className="bg-white text-ui-grey px-2 w-max py-1 my-0.5"><button className='hover:bg-ui-green ml-8 w-44 py-4  rounded-xl hover:text-white hover:drop-shadow-xl transition-all duration-300 flex'><div><FontAwesomeIcon icon={faHouse} className='pl-4' /> &nbsp;Dashboard</div></button></div>
-                <div className="bg-white text-ui-grey px-2 w-max py-1 my-0.5"><button className='hover:bg-ui-green ml-8 w-44 py-4  rounded-xl hover:text-white hover:drop-shadow-xl transition-all duration-300 flex'><div><FontAwesomeIcon icon={faTicketSimple} className='pl-4' /> &nbsp;My Tickets</div></button></div>
-                <div className="bg-white text-ui-grey px-2 w-max py-1 my-0.5"><button className='hover:bg-ui-green ml-8 w-44 py-4  rounded-xl hover:text-white hover:drop-shadow-xl transition-all duration-300 flex'><div><FontAwesomeIcon icon={faHeart} className='pl-4' /> &nbsp;Favourite</div></button></div>
-                <div className="bg-white text-ui-grey px-2 w-max py-1 my-0.5"><button className='hover:bg-ui-green ml-8 w-44 py-4  rounded-xl hover:text-white hover:drop-shadow-xl transition-all duration-300 flex'><div><FontAwesomeIcon icon={faEnvelope} className='pl-4' /> &nbsp;Message</div></button></div>
-                <div className="bg-white text-ui-grey px-2 w-max py-1 my-0.5"><button className='hover:bg-ui-green ml-8 w-44 py-4  rounded-xl hover:text-white hover:drop-shadow-xl transition-all duration-300 flex'><div><FontAwesomeIcon icon={faMoneyBill1} className='pl-4' /> &nbsp;Transaction</div></button></div>
-                <div className="bg-white text-ui-grey px-2 w-max py-1 my-0.5"><button className='hover:bg-ui-green ml-8 w-44 py-4  rounded-xl hover:text-white hover:drop-shadow-xl transition-all duration-300 flex'><div><FontAwesomeIcon icon={faGear} className='pl-4' /> &nbsp;Settings</div></button></div>
+                <div className="bg-white text-ui-grey px-2 w-max py-1 my-[1%]"><button className='hover:bg-ui-green ml-8 w-44 py-4  rounded-xl hover:text-white hover:drop-shadow-xl transition-all duration-300 flex'><div><FontAwesomeIcon icon={faHouse} className='pl-4' /> &nbsp;Dashboard</div></button></div>
+                <div className="bg-white text-ui-grey px-2 w-max py-1 my-[1%]"><button className='hover:bg-ui-green ml-8 w-44 py-4  rounded-xl hover:text-white hover:drop-shadow-xl transition-all duration-300 flex'><div><FontAwesomeIcon icon={faTicketSimple} className='pl-4' /> &nbsp;My Tickets</div></button></div>
+                <div className="bg-white text-ui-grey px-2 w-max py-1 my-[1%]"><button className='hover:bg-ui-green ml-8 w-44 py-4  rounded-xl hover:text-white hover:drop-shadow-xl transition-all duration-300 flex'><div><FontAwesomeIcon icon={faHeart} className='pl-4' /> &nbsp;Favourite</div></button></div>
+                <div className="bg-white text-ui-grey px-2 w-max py-1 my-[1%]"><button className='hover:bg-ui-green ml-8 w-44 py-4  rounded-xl hover:text-white hover:drop-shadow-xl transition-all duration-300 flex'><div><FontAwesomeIcon icon={faEnvelope} className='pl-4' /> &nbsp;Message</div></button></div>
+                <div className="bg-white text-ui-grey px-2 w-max py-1 my-[1%]"><button className='hover:bg-ui-green ml-8 w-44 py-4  rounded-xl hover:text-white hover:drop-shadow-xl transition-all duration-300 flex'><div><FontAwesomeIcon icon={faMoneyBill1} className='pl-4' /> &nbsp;Transaction</div></button></div>
+                <div className="bg-white text-ui-grey px-2 w-max py-1 my-[1%]"><button className='hover:bg-ui-green ml-8 w-44 py-4  rounded-xl hover:text-white hover:drop-shadow-xl transition-all duration-300 flex'><div><FontAwesomeIcon icon={faGear} className='pl-4' /> &nbsp;Settings</div></button></div>
               </div>
             </div>
 
@@ -80,7 +80,7 @@ function Landing() {
 
             <div className='flex justify-between'>
               <div>
-                <h1 className='ml-0 mt-14 text-[30px] font-medium text-ui-black'>Hello, Dheeraj! 👋 </h1>
+                <h1 className='ml-0 mt-14 text-3xl font-medium text-ui-black'>Hello, Dheeraj! 👋 </h1>
                 <h1 className='ml-11 mt-1 text-md font-light text-ui-grey'>Welcome back and explore the world. </h1>
               </div>
 
@@ -97,23 +97,23 @@ function Landing() {
             </div>
 
 
-            <div className='flex h-96  justify-evenly pt-5'>
-              <div >
+            <div className='flex h-[41%]  justify-evenly pt-5'>
+              <div className='w-[25.5%] h-[100%]'>
                 <DestinationCard image={mteverest} name="Mount Everest" />
               </div>
-              <div>
+              <div className='w-[25.5%] h-[100%]'>
                 <DestinationCard image={dubai} name="Burj Khalifa" />
               </div>
-              <div>
+              <div className='w-[25.5%] h-[100%]'>
                 <DestinationCard image={paris} name="World Tour" />
               </div>
             </div>
 
             {/* LOWER DIV  */}
 
-            <div className='flex h-96  '>
+            <div className='flex h-[49%] border w-100%'>
 
-              <div className=' ml-11 w-[59%] h-[85%] bg-white rounded-[45px]'>
+              <div className=' ml-[5%] w-[59%] h-[78%] mt-[2%] bg-white rounded-[45px]'>
                 <div className='flex  h-20 w-full justify-between'>
 
                   <p className='text-2xl font-medium mt-5 ml-7  text-ui-black'> Best Destination 🌈 <br /> <span className='text-ui-grey text-sm font-normal mr-16'>100 Destination Found</span></p>
@@ -135,7 +135,7 @@ function Landing() {
 
               </div>
 
-              <div className='flex  w-[35%]'>
+              <div className='flex mt-[2%]  w-[30.5%] h-[78%]'>
                 <div className='ml-12'>
                   <Explorer />
                 </div>
@@ -152,7 +152,7 @@ function Landing() {
 
 
           {/* RIght SIde */}
-          <div className=' w-full h-full ml-[64%]'>
+          <div className=' border border-purple-900 w-[22%] h-full ml-[62.5%]'>
             <div className='flex h-[15%]'>
             
             <div className=' w-20 h-full'>
@@ -170,10 +170,10 @@ function Landing() {
 
             </div>
 
-            <div className='h-[40%] '>
+            <div className='relative h-[40%] w-[100%] border'>
 
               <DateCalendar
-
+                  
               // sx={{
               // svg:{ color },
               // input: { color },
@@ -201,7 +201,7 @@ function Landing() {
 
 
               {/* MY SCHEDULE  */}
-          <div className=' h-96 w-full'>
+          <div className=' h-96 w-[90%]'>
             <div>
             <h1 className='flex text-2xl font-medium text-ui-black ml-10'>My Schedule</h1>
             </div>

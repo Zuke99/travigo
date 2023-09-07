@@ -3,10 +3,10 @@ import explorer from '../assets/explorer.png'
 
 function Explorer(props) {
   return (
-    <div className='relative bg-ui-purple h-[325px] w-64 rounded-3xl shadow-2xl'>
+    <div className='relative bg-ui-purple h-[100%] w-[100%] rounded-3xl shadow-2xl'>
 
-      <div className={`relative bg-ui-purple h-[325px] w-64 rounded-3xl cursor-pointer `}>
-        <img className={`h-[300px] w-96 object-cover  `}
+      <div className={`relative bg-ui-purple  h-[100%] w-[100%] rounded-3xl cursor-pointer `}>
+        <img className={` h-[100%] w-[100%] object-cover  `}
           src={explorer}
           alt='destination' />
 

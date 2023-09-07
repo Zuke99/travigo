@@ -7,10 +7,10 @@ function DestinationCard(props) {
 
    
   return (
-    <div className='relative bg-black h-[340px] w-64 rounded-3xl shadow-2xl'>
+    <div className='relative bg-black border h-[100%] w-[100%] rounded-3xl shadow-2xl'>
         
-    <div className={`relative bg-black h-[340px] w-64 rounded-3xl hover:opacity-80 cursor-pointer transition-all duration-300`}> 
-  <img className={`h-[340px] w-64 rounded-3xl shadow-2xl object-cover opacity-95 group-hover:opacity-0 transition-all duration-300 `}
+    <div className={`relative bg-black h-[100%] w-[100%] rounded-3xl hover:opacity-80 cursor-pointer transition-all duration-300`}> 
+  <img className={`h-[100%] w-[100%] rounded-3xl shadow-2xl object-cover opacity-95 group-hover:opacity-0 transition-all duration-300 `}
   src={props.image} 
   alt='destination'/>
 

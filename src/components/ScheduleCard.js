@@ -9,9 +9,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function ScheduleCard() {
   return (
-    <div className='flex border rounded-3xl w-11/12 h-28'>
-      <div className=' w-24 h-4/5 rounded-3xl ml-3 mt-2'>
-        <img src={sahara} alt='' className='rounded-3xl object-cover h-full w-full'/>
+    <div className='flex border rounded-3xl w-[100%] h-[100%]'>
+      <div className=' w-[24%] h-[30%] rounded-3xl ml-3 mt-2 '>
+        <img src={sahara} alt='' className='rounded-3xl object-cover'/>
       </div>
       <div className='relative w-48 h-5/6 mt-3'>
         <h1 className='flex ml-4 text-lg font-medium'>Sahara Desert</h1>
